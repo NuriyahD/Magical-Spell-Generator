@@ -1,0 +1,41 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: antiquewhite;
+}
+
+ul{
+    display: none;
+}
+
+button{
+    padding: 8px;
+    border-radius: 10px;
+    background-color: orangered;
+    margin-bottom: 20px;
+    color: white;
+}
+
+button:hover{
+    background-color: orange;
+}
+
+.buttons{
+   display: grid;
+   grid-template-columns: repeat(2,1fr); 
+   gap: 10px;
+}
+
+#spellArea{
+    width: 100%;
+    max-width: 400px;
+    min-height: 200px;
+    background-color: white;
+    color: black;
+    justify-items: center;
+    border: 8px solid darkred;
+    border-radius: 25px;
+}
